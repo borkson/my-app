@@ -1,0 +1,45 @@
+app-top-bar {
+  .top-bar {
+    height: 60px;
+    background-color: #9c27b0;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+      h1 {
+        color: #ffffff;
+        margin: 0;
+      }
+    }
+    &__buttons {
+      display: flex;
+
+      .fancy-button {
+        background-color: #ffffff;
+        color: #9c27b0;
+        padding: 10px;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        &:first-of-type {
+          margin-right: 16px;
+        }
+
+        i.material-icons {
+          color: #9c27b0;
+          padding-right: 4px;
+        }
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
