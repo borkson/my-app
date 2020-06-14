@@ -1,24 +1,30 @@
-# Composer files
-composer.phar
-vendor/
+### Angular ###
+## Angular ##
+# compiled output
+dist/
+tmp/
+app/**/*.js
+app/**/*.js.map
 
-# Local configs
-config/autoload/*.local.php
+# dependencies
+node_modules/
+bower_components/
 
-# Binary gettext files
-*.mo
+# IDEs and editors
+.idea/
 
-# Data
-data/logs/
-data/cache/
-data/sessions/
-data/tmp/
-temp/
+# misc
+.sass-cache/
+connect.lock/
+coverage/
+libpeerconnection.log/
+npm-debug.log
+testem.log
+typings/
 
-#Doctrine 2
-data/DoctrineORMModule/Proxy/
-data/DoctrineORMModule/cache/
+# e2e
+e2e/*.js
+e2e/*.map
 
-# Legacy ZF1
-demos/
-extras/documentation
+# System Files
+.DS_Store/
