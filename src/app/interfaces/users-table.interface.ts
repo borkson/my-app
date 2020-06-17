@@ -3,10 +3,10 @@ export interface TableUsers {
   name: string;
   username: string;
   email?: string;
-  address: Array<IAddressApi>;
+  address: IAddressApi;
   phone?: string;
   website?: string;
-  company?: Array<ICompanyApi>;
+  company?: ICompanyApi;
 }
 
 export interface IAddressApi {
@@ -14,7 +14,7 @@ export interface IAddressApi {
   suite?: string;
   city: string;
   zipcode?: string;
-  geo?: Array<IGeoApi>;
+  geo?: IGeoApi;
 }
 
 export interface IGeoApi {

@@ -11,6 +11,9 @@ export class UsersService {
   getUsers(): Observable<TableUsers[]> {
     return this.http.get<TableUsers[]>('http://localhost:8080/users');
   }
+  // TODO
+  // importUsers():
+  // deleteUsers():
 
   constructor(
     private http: HttpClient
